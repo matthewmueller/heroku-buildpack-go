@@ -387,7 +387,7 @@ loadEnvDir "${env_dir}"
 setGitCredHelper "${env_dir}"
 trap clearGitCredHelper INT TERM EXIT
 
-FLAGS=(-tags heroku sqlite_vtable)
+FLAGS=(-tags heroku -tags sqlite_vtable)
 
 determineTool
 
